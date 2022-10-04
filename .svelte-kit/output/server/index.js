@@ -1,5 +1,5 @@
 import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component, n as noop, a as safe_not_equal } from "./chunks/index.js";
-import { devalue } from "devalue";
+import * as devalue from "devalue";
 import * as cookie from "cookie";
 import { serialize, parse } from "cookie";
 import * as set_cookie_parser from "set-cookie-parser";
@@ -226,7 +226,7 @@ function data_response(data) {
     "cache-control": "private, no-store"
   };
   try {
-    return new Response(`window.__sveltekit_data = ${devalue(data)}`, { headers });
+    return new Response(`window.__sveltekit_data = ${devalue.uneval(data)}`, { headers });
   } catch (e) {
     const error2 = e;
     const match = /\[(\d+)\]\.data\.(.+)/.exec(error2.path);
@@ -1321,7 +1321,7 @@ async function render_response({
   const prefixed = (path) => path.startsWith("/") ? path : `${assets2}/${path}`;
   const serialized = { data: "", form: "null" };
   try {
-    serialized.data = devalue(branch.map(({ server_data }) => server_data));
+    serialized.data = devalue.uneval(branch.map(({ server_data }) => server_data));
   } catch (e) {
     const error3 = e;
     const match = /\[(\d+)\]\.data\.(.+)/.exec(error3.path);
@@ -1330,7 +1330,7 @@ async function render_response({
     throw error3;
   }
   if (form_value) {
-    serialized.form = devalue(form_value);
+    serialized.form = devalue.uneval(form_value);
   }
   if (inline_styles.size > 0) {
     const content = Array.from(inline_styles.values()).join("\n");
@@ -1369,7 +1369,7 @@ async function render_response({
 					status: ${status},
 					error: ${s(error2)},
 					node_ids: [${branch.map(({ node }) => node.index).join(", ")}],
-					params: ${devalue(event.params)},
+					params: ${devalue.uneval(event.params)},
 					routeId: ${s(event.routeId)},
 					data: ${serialized.data},
 					form: ${serialized.form}
@@ -1710,7 +1710,7 @@ async function render_page(event, route, page, options, state, resolve_opts) {
       }
     }
     if (state.prerendering && should_prerender_data) {
-      const body = `window.__sveltekit_data = ${devalue({
+      const body = `window.__sveltekit_data = ${devalue.uneval({
         type: "data",
         nodes: branch.map((branch_node) => branch_node == null ? void 0 : branch_node.server_data)
       })}`;
