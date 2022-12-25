@@ -129,13 +129,13 @@
         <p>Click the arrows to switch between the two personas.</p>
         <Timeline
                 images={[{description: "<b>Denice</b> represents a common use case of Venetian blinds: trying to block out external distractions.",
-                url: "static/distracted_denice.svg"}, {description: "<b>Daniel</b> also represents a common use case: needing to block out as much light as possible.", url: "static/dark_daniel.svg"}]}/>
+                url: "distracted_denice.svg"}, {description: "<b>Daniel</b> also represents a common use case: needing to block out as much light as possible.", url: "dark_daniel.svg"}]}/>
         <hr>
         <h2>Storyboard 🎨</h2>
         <p>To better understand the user experience, I created a storyboard of an imaginary scenario involving one of
             our archetypal users, in this case Distracted Denice. Click the arrows the navigate through her story!</p>
         <Timeline
-                images={[{description: "", url: "static/frame_1.svg"}, {description: "", url: "static/frame_2.svg"}, {description: "", url: "static/frame_3.svg"}, {description: "", url: "static/frame_4.svg"}, {description: "", url: "static/frame_5.svg"}, {description: "", url: "static/frame_6.svg"}, {description: "", url: "static/frame_7.svg"}, {description: "", url: "static/frame_8.svg"}]}/>
+                images={[{description: "", url: "frame_1.svg"}, {description: "", url: "frame_2.svg"}, {description: "", url: "frame_3.svg"}, {description: "", url: "frame_4.svg"}, {description: "", url: "frame_5.svg"}, {description: "", url: "frame_6.svg"}, {description: "", url: "frame_7.svg"}, {description: "", url: "frame_8.svg"}]}/>
     </main>
     <footer>
 

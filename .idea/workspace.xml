@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef05ec3e-c068-4678-8541-f8001a654411" name="Changes" comment="" />
+    <list default="true" id="ef05ec3e-c068-4678-8541-f8001a654411" name="Changes" comment="fix: make recognize assets">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/ambient.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/build/hooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare-tmp/_worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare-tmp/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/assets/_layout-53db8fdd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/assets/_page-4461305c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/chunks/0-be617feb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/chunks/1-bca4534d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/chunks/2-8ffab1a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/chunks/index-19354659.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/chunks/singletons-81291b52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/components/error.svelte-850b7463.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/components/pages/_layout.svelte-90422c28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/components/pages/_page.svelte-492d291a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/immutable/start-fa7f641a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_app/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_routes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/_worker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/cloudflare/vite-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/client-manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/client-matchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/nodes/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/nodes/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/nodes/2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/prerendered.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/generated/root.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/assets/_layout-53db8fdd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/assets/_page-4461305c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/chunks/0-be617feb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/chunks/1-bca4534d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/chunks/2-8ffab1a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/chunks/index-19354659.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/chunks/singletons-81291b52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/components/error.svelte-850b7463.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/components/pages/_layout.svelte-90422c28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/components/pages/_page.svelte-492d291a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/immutable/start-fa7f641a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/_app/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/client/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/prerendered/fallback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/chunks/hooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/chunks/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/fallbacks/error.svelte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_layout.svelte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/nodes/0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/nodes/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/output/server/nodes/2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/types/route_meta_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.svelte-kit/types/src/routes/$types.d.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +76,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -29,6 +91,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Fg8eoihkH5SVMo0pNk8cmolrNU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/svg" />
@@ -63,11 +127,81 @@
       <option name="presentableId" value="Default" />
       <updated>1664902465777</updated>
       <workItem from="1664902467564" duration="328000" />
-      <workItem from="1664902831109" duration="12722000" />
+      <workItem from="1664902831109" duration="16228000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: initial">
+      <created>1664918687822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664918687822</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: cloudflare">
+      <created>1664919789848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664919789848</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: cloudflare">
+      <created>1664919806025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664919806025</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: cloudflare new">
+      <created>1664920134128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664920134128</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: filepaths">
+      <created>1664922384882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664922384882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: re-ignore .svelte-kit">
+      <created>1664922975895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664922975895</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: make recognize assets">
+      <created>1664923071118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664923071118</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial" />
+    <MESSAGE value="feat: cloudflare" />
+    <MESSAGE value="feat: cloudflare new" />
+    <MESSAGE value="fix: filepaths" />
+    <MESSAGE value="feat: re-ignore .svelte-kit" />
+    <MESSAGE value="fix: make recognize assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: make recognize assets" />
   </component>
 </project>
